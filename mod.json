@@ -1,0 +1,30 @@
+{
+	"geode": "4.0.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "tuusuario.contador-muertes",
+	"name": "Contador de Muertes",
+	"version": "v1.0.0",
+	"developer": "TuUsuario",
+	"description": "Muestra un contador de muertes en pantalla durante el nivel.",
+	"settings": {
+		"mostrar-contador": {
+			"name": "Mostrar contador",
+			"description": "Activa o desactiva el contador de muertes.",
+			"type": "bool",
+			"default": true
+		},
+		"opacidad": {
+			"name": "Opacidad",
+			"type": "int",
+			"default": 150,
+			"min": 20,
+			"max": 255,
+			"control": { "slider": true }
+		}
+	}
+}
